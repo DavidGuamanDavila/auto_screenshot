@@ -13,3 +13,7 @@ def take_screenshots(video_filename, output_dir_name, interval=5):
 
     # Load the video
     clip = VideoFileClip(video_path)
+
+    # Ensure the output directory exists
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
