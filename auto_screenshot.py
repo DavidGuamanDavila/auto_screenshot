@@ -28,3 +28,11 @@ def take_screenshots(video_filename, output_dir_name, interval=5):
         img.save(os.path.join(output_dir, f"screenshot_{t}s.png"))
 
     print(f"Screenshots taken at intervals of {interval} seconds and saved in {output_dir}.")
+
+def main():
+    video_filename = "output.mp4"  # Replace with your video file name
+    output_dir_name = "screenshots"  # Name of your desired output directory
+    take_screenshots(video_filename, output_dir_name)
+
+if __name__ == "__main__":
+    main()
