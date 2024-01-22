@@ -20,3 +20,13 @@ Ensure you have Python 3 installed on your system. Install the necessary Python 
 ```bash
 pip3 install moviepy
 pip3 install pillow
+```
+
+## Usage
+1. Download the *auto_screenshot* script from this repository.
+2. Open the script in a text editor and configure the *video_filename* and *output_dir_name* variables according to your needs.
+3. Execute the script:
+``` bash
+python3 auto_screenshot.py
+```
+4. Your screenshots will be available in the designated output directory.
