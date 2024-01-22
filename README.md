@@ -8,3 +8,8 @@
 - **Customizable Interval Settings**: Users can easily set the frequency of screenshots (e.g., every 5 seconds).
 - **Simple and User-Friendly**: Designed for ease of use, requiring minimal setup and technical know-how.
 - **Organized Output**: Saves all screenshots in a specified directory, keeping your files neatly arranged.
+
+## Requirements
+- Python 3.x
+- moviepy
+- Pillow (Python Imaging Library)
