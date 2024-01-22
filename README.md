@@ -52,8 +52,3 @@ Once FFmpeg is installed, convert your .mov file to .mp4 using the following com
 ```bash
 ffmpeg -i input.mov -q:v 0 output.mp4
 ```
-
-
-
-
-```
