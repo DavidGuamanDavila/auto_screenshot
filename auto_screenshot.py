@@ -17,3 +17,14 @@ def take_screenshots(video_filename, output_dir_name, interval=5):
     # Ensure the output directory exists
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
+        
+    # Calculate the times to take screenshots
+    times = [i for i in range(0, int(clip.duration), interval)]
+
+    # Take and save screenshots
+    for t in times:
+        frame = clip.get_frame(t)
+        img = Image.fromarray(frame)
+        img.save(os.path.join(output_dir, f"screenshot_{t}s.png"))
+
+    print(f"Screenshots taken at intervals of {interval} seconds and saved in {output_dir}.")
