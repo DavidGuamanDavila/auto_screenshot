@@ -13,3 +13,10 @@
 - Python 3.x
 - moviepy
 - Pillow (Python Imaging Library)
+
+## Installation
+Ensure you have Python 3 installed on your system. Install the necessary Python libraries using the following commands:
+
+```bash
+pip3 install moviepy
+pip3 install pillow
