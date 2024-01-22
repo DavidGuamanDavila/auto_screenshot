@@ -30,3 +30,30 @@ pip3 install pillow
 python3 auto_screenshot.py
 ```
 4. Your screenshots will be available in the designated output directory.
+
+## Converting Video Formats
+
+To use *auto_screenshot* with *.mov* files or other formats, you may first need to convert them to *.mp4*. This can be done using FFmpeg, a powerful multimedia framework.
+
+### Install Homebrew:
+Open the Terminal and run. You can visit the [Homebrew](https://brew.sh/) website for more information:
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### Install FFmpeg:
+After installing Homebrew, install FFmpeg by running:
+```bash
+brew install ffmpeg
+```
+
+### Convert .mov to .mp4::
+Once FFmpeg is installed, convert your .mov file to .mp4 using the following command (replace input.mov with your file's path and output.mp4 with the desired output file name):
+```bash
+ffmpeg -i input.mov -q:v 0 output.mp4
+```
+
+
+
+
+```
