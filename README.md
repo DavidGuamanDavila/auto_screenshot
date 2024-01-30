@@ -1,7 +1,11 @@
 # auto_screenshot_util
 
 ## Description
-`auto_screenshot_util` is a Python utility designed to facilitate the automatic capture of screenshots from a video file at specified time intervals. It serves as an efficient tool for generating a series of images from videos, useful in various applications such as content creation, analysis, or simply extracting memorable moments from your favorite clips.
+**auto_screenshot_util** is a Python utility designed to facilitate the automatic capture of screenshots from a video file at specified time intervals. This utility was inspired by the specific needs encountered in the field of computer vision, particularly in the process of creating custom datasets. It addresses a common challenge where researchers and developers extract camera feeds in MP4 format from ROS (Robot Operating System) bag files and require an efficient method to generate image datasets.
+
+The utility streamlines the task of capturing screenshots, automating what would otherwise be a time-consuming manual process. It's particularly useful for scenarios where one needs to create image datasets from video sources, such as extracting frames from camera feeds for training computer vision models, analyzing video content, or capturing memorable moments from various video clips.
+
+By providing an automated solution to take screenshots at defined intervals, **auto_screenshot_util** significantly enhances productivity and accuracy in the dataset creation process, making it an invaluable tool for anyone working in computer vision, video analysis, or related fields.
 
 ## Features
 - **Automated Screenshot Capture**: Extracts screenshots from a video file automatically at user-defined intervals.
